@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My calculator</title>
+    <link rel="stylesheet" href="/css/calculator.css">
+</head>
+
+<body>
+    <h1>WELCOME TO MY CALCULATOR</h1>
+    <div id="container">
+        <input type="text" id="display-screen" placeholder="0">
+
+        <div id="buttonbox">
+            <div class="row" id="row1">
+                <button onclick="AC();" style="width: 110px; color: tomato; ">AC</button>
+                <button onclick="Del();" style="font-size:23px;">Del</button>
+                <button onclick="inputDisplay('+');">+</button>
+            </div>
+
+            <div class="row" id="row2">
+                <button onclick="inputDisplay('7');">7</button>
+                <button onclick="inputDisplay('8');">8</button>
+                <button onclick="inputDisplay('9');">9</button>
+                <button onclick="inputDisplay('-');">-</button>
+            </div>
+
+            <div class="row" id="row3">
+                <button onclick="inputDisplay('4');">4</button>
+                <button onclick="inputDisplay('5');">5</button>
+                <button onclick="inputDisplay('6');">6</button>
+                <button onclick="inputDisplay('*');">x</button>
+            </div>
+
+            <div class="row" id="row4">
+                <button onclick="inputDisplay('1');">1</button>
+                <button onclick="inputDisplay('2');">2</button>
+                <button onclick="inputDisplay('3');">3</button>
+                <button onclick="inputDisplay('/');">&divide;</button>
+            </div>
+
+            <div class="row" id="row5">
+                <button onclick="inputDisplay('%');">%</button>
+                <button onclick="inputDisplay('0');">0</button>
+                <button onclick="inputDisplay('.');">.</button>
+                <button onclick=" calculate(); " style="background: #f89734; color: #fff;">=</button>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="/js/calculator.js"></script>
+</body>
+
+</html>

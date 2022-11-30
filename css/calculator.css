@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: cursive;
+}
+
+
+#container {
+    width: 293px;
+    height: 410px;
+    border: 2px solid black;
+    margin: 50px auto;
+    border-radius: 25px;
+    background-color: #616268;
+    box-shadow: 0px 0px 5px 2px rgb(11, 12, 9);
+}
+
+#display-screen {
+    border: 2px solid black;
+    margin: 25px 0px 10px 32px;
+    width: 220px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #d0d6e1;
+    text-align: right;
+    font-size: 40px;
+    color: black;
+}
+
+#row1 button {
+    width: 54px;
+    height: 54px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 1pt solid;
+    cursor: pointer;
+}
+
+
+button {
+    width: 54px;
+    height: 54px;
+    font-weight: bolder;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1pt solid;
+    cursor: pointer;
+}
+
+.row {
+    margin: 5px 30px 0 35px;
+}
